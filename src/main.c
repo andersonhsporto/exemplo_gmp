@@ -1,9 +1,7 @@
 #include "teste.h"
 #include "teste2.h"
 
-
-
-int main(){
+int main() {
 	print_hello();
 	print_hello2();
 	example();

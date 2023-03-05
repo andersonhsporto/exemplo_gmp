@@ -56,3 +56,5 @@ vgcore*
 # Binary files
 *replace
 teste_gmp
+./obj/*
+./obj
