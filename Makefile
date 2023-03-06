@@ -9,7 +9,7 @@ NAME		= teste_gmp
 ####################################################################################################
 
 CXX			= gcc
-CXXFLAGS	+= -lgmp -Wall -Wextra #-Werror
+CXXFLAGS	+= -Wall -Wextra -Werror
 
 ####################################################################################################
 ##################################### Include Folders ##############################################
@@ -71,7 +71,7 @@ OBJ_FILES	= $(addprefix $(OBJ_DIR),$(OBJ_FT))
 all: $(NAME)
 
 $(NAME): $(OBJ_DIR) $(OBJ_FT)
-	$(CXX) $(CXXFLAGS) $(OBJ_FILES) -o $(NAME) -lgmp
+	$(CXX) $(CXXFLAGS) $(OBJ_FILES) -o $(NAME)
 
 $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)/src

@@ -4,6 +4,5 @@
 int main() {
 	print_hello();
 	print_hello2();
-	example();
 	return 0;
 }
