@@ -22,6 +22,24 @@ The project is structured as follows:
 	│       └── teste2.c
 	└── Makefile
 
+
+### Makefile Description
+
+#### Variables
+
+- CXX = Compiler
+
+- CXXFLAGS = Compiler flags
+
+- NAME = Name of the executable
+
+- SRC = Source files
+
+- MAIN_HEADERS = Include files
+
+- INCLUDE = Include directories
+
+
 ### Usage
 
 To build the project, run `make` in the root directory.
@@ -32,3 +50,4 @@ To recompile the project, run `make re`.
 ### License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
